@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ContactManagerTest" time="0.484" tests="21" errors="2" skipped="1" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="S:\microservices\JUnit5_Practice\target\test-classes;S:\microservices\JUnit5_Practice\target\classes;C:\Users\sande\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\sande\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\sande\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\sande\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\sande\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\sande\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\sande\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\sande\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\sande\AppData\Local\Temp\surefire8950845652944495997\surefirebooter9065319943649245855.jar C:\Users\sande\AppData\Local\Temp\surefire8950845652944495997 2021-04-16T00-43-20_304-jvmRun1 surefire5236322632021162554tmp surefire_05214549482268034990tmp"/>
+    <property name="surefire.test.class.path" value="S:\microservices\JUnit5_Practice\target\test-classes;S:\microservices\JUnit5_Practice\target\classes;C:\Users\sande\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\sande\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\sande\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\sande\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\sande\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\sande\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\sande\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\sande\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sande"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_20\jre"/>
+    <property name="basedir" value="S:\microservices\JUnit5_Practice"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sande\AppData\Local\Temp\surefire8950845652944495997\surefirebooter9065319943649245855.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_20\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_20-b26"/>
+    <property name="user.name" value="sande"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sande\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sande\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_20"/>
+    <property name="user.dir" value="S:\microservices\JUnit5_Practice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\app\sande\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\C:\Program Files\Java\jdk1.8.0_20\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin;C:\apache-tomcat-8.0.29\apache-tomcat-8.0.29\bin;C:\Program Files\Java\jdk1.8.0_20\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\sande;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\spark-2.4.5-bin-hadoop2.7\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;;;C:\Users\sande\AppData\Local\Microsoft\WindowsApps;C:\Users\sande\AppData\Roaming\npm;C:\Users\sande\.dotnet\tools;C:\Users\sande\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.20-b23"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldValidatePhoneNumberFormat" classname="ContactManagerTest" time="0.109"/>
+  <testcase name="shouldValidatePhoneNumberFormat[1]" classname="ContactManagerTest" time="0.031"/>
+  <testcase name="shouldValidatePhoneNumberFormat[2]" classname="ContactManagerTest" time="0"/>
+  <testcase name="shouldValidatePhoneNumberFormat[3]" classname="ContactManagerTest" time="0"/>
+  <testcase name="shouldThrowRunTimeExceptionWhenLastNameIsNull" classname="ContactManagerTest" time="0"/>
+  <testcase name="shouldTestCreationOnlyOnDEV" classname="ContactManagerTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at ContactManagerTest.shouldTestCreationOnlyOnDEV(ContactManagerTest.java:60)
+</skipped>
+    <system-out><![CDATA[Creating Contact manager instance before test execution
+Executes after each test
+]]></system-out>
+  </testcase>
+  <testcase name="shouldThrowRunTimeExceptionWhenFirstNameIsNull" classname="ContactManagerTest" time="0.031"/>
+  <testcase name="shouldThrowRunTimeExceptionWhenPhoneNumberIsNull" classname="ContactManagerTest" time="0"/>
+  <testcase name="shouldCreateContact" classname="ContactManagerTest" time="0.016"/>
+  <testcase name="shouldCreateContact[1]" classname="ContactManagerTest" time="0.016"/>
+  <testcase name="shouldCreateContact[2]" classname="ContactManagerTest" time="0.031"/>
+  <testcase name="shouldCreateContact[3]" classname="ContactManagerTest" time="0"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingCSVFileSource{String}[1]" classname="ContactManagerTest$ParameterizedTests" time="0"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingCSVFileSource{String}[2]" classname="ContactManagerTest$ParameterizedTests" time="0.016">
+    <error message="Phone Number should  start with 0" type="java.lang.RuntimeException">java.lang.RuntimeException: Phone Number should  start with 0
+	at ContactManagerTest$ParameterizedTests.shouldTestPhoneNumberFormatUsingCSVFileSource(ContactManagerTest.java:98)
+</error>
+    <system-out><![CDATA[Creating Contact manager instance before test execution
+Executes after each test
+]]></system-out>
+  </testcase>
+  <testcase name="shouldTestPhoneNumberFormatUsingCSVFileSource{String}[3]" classname="ContactManagerTest$ParameterizedTests" time="0.015">
+    <error message="Phone Number must contain 10 digits" type="java.lang.RuntimeException">java.lang.RuntimeException: Phone Number must contain 10 digits
+	at ContactManagerTest$ParameterizedTests.shouldTestPhoneNumberFormatUsingCSVFileSource(ContactManagerTest.java:98)
+</error>
+    <system-out><![CDATA[Creating Contact manager instance before test execution
+Executes after each test
+]]></system-out>
+  </testcase>
+  <testcase name="shouldTestPhoneNumberFormatUsingValueSource{String}[1]" classname="ContactManagerTest$ParameterizedTests" time="0"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingValueSource{String}[2]" classname="ContactManagerTest$ParameterizedTests" time="0.016"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingValueSource{String}[3]" classname="ContactManagerTest$ParameterizedTests" time="0.015"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingCSVSource{String}[1]" classname="ContactManagerTest$ParameterizedTests" time="0"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingCSVSource{String}[2]" classname="ContactManagerTest$ParameterizedTests" time="0"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingCSVSource{String}[3]" classname="ContactManagerTest$ParameterizedTests" time="0"/>
+</testsuite>

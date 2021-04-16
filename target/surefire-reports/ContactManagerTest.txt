@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: ContactManagerTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 0.484 s <<< FAILURE! - in ContactManagerTest
+shouldTestPhoneNumberFormatUsingCSVFileSource{String}[2]  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.RuntimeException: Phone Number should  start with 0
+	at ContactManagerTest$ParameterizedTests.shouldTestPhoneNumberFormatUsingCSVFileSource(ContactManagerTest.java:98)
+
+shouldTestPhoneNumberFormatUsingCSVFileSource{String}[3]  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.RuntimeException: Phone Number must contain 10 digits
+	at ContactManagerTest$ParameterizedTests.shouldTestPhoneNumberFormatUsingCSVFileSource(ContactManagerTest.java:98)
+
